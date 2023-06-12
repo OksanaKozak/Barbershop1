@@ -1,0 +1,324 @@
+:root {
+    --text-color: #303030;
+    --text-color-two: #FFFFFF;
+    --secondary-text-color: #555555;
+    --accent-color-text: #9DA4BD;
+    --accent-color: #FF6C00;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #FFFFFF;
+}
+h1, h2, h3, h4 {
+    font-family: 'Raleway', sans-serif;
+}
+.btn {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+}
+.btn:hover,
+.btn:focus {
+    background-color: var(--accent-color)
+}
+.visualli-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+/* ----------header----------- */
+header {
+    background-color: aqua;
+}
+.header-link {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    color: var(--text-color-two);
+}
+.header-tel {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    color: var(--text-color-two);
+}
+.header-btn {
+    color: var(--text-color-two);
+}
+.header-link:hover,
+.header-link:focus {
+    color: var(--accent-color)
+}
+.header-tel:hover,
+.header-tel:focus {
+    background-color: var(--accent-color)
+}
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+/* -----------hero------------ */
+.hero {
+    background-color: aqua;
+}
+.hero-pre-title {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: rgba(157, 164, 189, 0.6);
+}
+.hero-title {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.18;
+    letter-spacing: 0.05em;
+    color: var(--text-color-two);
+}
+.hero-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: var(--accent-color-text)
+}
+.hero-link {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    color: var(--text-color)
+}
+.hero-link:hover,
+.hero-link:focus {
+    color: var(--accent-color)
+}
+/* -----------about-------------- */
+.about-pre-title {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: var(--text-color)
+}
+.about-title {
+    font-size: 42px;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    color: var(--text-color)
+}
+.about-after-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color)
+}
+.about-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.86;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color)
+}
+.about-btn {
+    color: var(--text-color)
+}
+/* ------------prices------------- */
+.prices {
+    background-color: aqua;
+}
+.prices-pre-title {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: rgba(157, 164, 189, 0.6);
+}
+.prices-title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
+    color: var(--text-color-two)
+}
+.prices-elem {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: var(--accent-color-text)
+}
+.prices-items {
+
+}
+.prices-btn {
+    color: var(--text-color-two)
+}
+/* ------------benefits------------ */
+.benefits-pre-title {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: var(--text-color)
+}
+.benefits-title {
+    font-size: 42px;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
+    color: var(--text-color)
+}
+.benefits-text {
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color)
+}
+.benefits-items > span {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: var(--text-color)
+}
+.benefits-items > sup {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.38;
+    text-align: center;
+    color: var(--accent-color)
+}
+.benefits-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-align: center;
+    color: var(--text-color)
+}
+.barbers-pre-title {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: var(--text-color)
+}
+.barbers-title {
+    font-size: 42px;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
+    color: var(--text-color)
+}
+/* ----------barbers---------- */
+.barbers-pre-title {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: var(--text-color)
+}
+.barbers-title {
+    font-size: 42px;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
+    color: var(--text-color)
+}
+.barbers-name {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.39;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--text-color)
+}
+.barbers-info {
+    font-size: 14px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--accent-color)
+}
+/* ----------gallery---------- */
+.gallery-pre-title {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: var(--text-color)
+}
+/* ----------form------------ */
+.form-title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+    color: var(--text-color-two)
+}
+/* ----------contacts--------- */
+.contacts {
+    background-color: aqua;
+}
+.contacts-title {
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+    color: var(--text-color-two)
+}
+.contacts-link {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: var(--accent-color-text)
+}
+.contacts-addres {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: var(--accent-color-text)
+}
+.contacts-pre-title {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: var(--text-color-two)
+}
+.contacts-text {
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: var(--accent-color-text)
+}
+/* ----------footer------- */
+.footer-copi {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    color: var(--accent-color-text)
+}
+.footer-links {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    color: var(--text-color)
+}
+.footer-links:hover,
+.footer-links:focus {
+    color: var(--accent-color)
+}
