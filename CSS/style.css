@@ -35,7 +35,7 @@ h1, h2, h3, h4 {
 }
 /* ----------header----------- */
 header {
-    background-color: aqua;
+    background-color: rgb(157, 163, 163);
 }
 .header-link {
     font-weight: 600;
