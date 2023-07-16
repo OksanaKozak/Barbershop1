@@ -5,16 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BarberShop</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 
 <body>
     <header>
+        <div class="container">
         <a href="./index.html" class="header-link link">
-            <img src="./images/logo.svg" alt="logo">
+            <img src="./images/logo.svg" class="header-logo" alt="logo">
         </a>
         <nav>
             <ul class="list">
@@ -26,25 +31,30 @@
         </nav>
         <a href="tel:+380441111111" class="link header-tel">+38 044 111 11 11</a>
         <button type="button" class="btn header-btn">ONLINE-BOOKING</button>
+        </div>
     </header>
     <main>
         <section class="hero">
-            <p class="hero-pre-title">A hair salon for men in Kyiv</p>
-            <h1 class="hero-title">BarberShop</h1>
-            <p class="hero-text">We are experts in trendy men’s haircuts.
-                We work quickly, carefully and with style.</p>
-            <ul class="list">
-                <li><a href="" rel="noopener noreferrer nofollow" class="hero-link link">Instagram</a></li>
-                <li><a href="" rel="noopener noreferrer nofollow" class="hero-link link">Youtube</a></li>
-            </ul>
-            <ul>
-                <li>
-                    <p>Back</p>
-                </li>
-                <li>
-                    <p>Forward</p>
-                </li>
-            </ul>
+            <div class="container">
+                <ul class="list">
+                    <li><a href="" rel="noopener noreferrer nofollow" class="hero-link link">Instagram</a></li>
+                    <li><a href="" rel="noopener noreferrer nofollow" class="hero-link link">Youtube</a></li>
+                </ul>
+                <div class="hero-right">
+                    <p class="hero-pre-title">A hair salon for men in Kyiv</p>
+                    <h1 class="hero-title">BarberShop</h1>
+                    <p class="hero-text">We are experts in trendy men’s haircuts.
+                        We work quickly, carefully and with style.</p>
+                </div>
+                <ul class="list">
+                    <li>
+                        <p>Back</p>
+                    </li>
+                    <li>
+                        <p>Forward</p>
+                    </li>
+                </ul>
+            </div>
         </section>
         <section class="about">
             <ul class="about-list list">
